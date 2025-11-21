@@ -1,6 +1,6 @@
 
 import React, { useRef } from 'react';
-import { ArrowRight, PlayCircle, CheckCircle, Package } from 'lucide-react';
+import { ArrowRight, CheckCircle, Package } from 'lucide-react';
 import { Button } from './ui/Button';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
@@ -121,12 +121,6 @@ const Hero: React.FC = () => {
                 onClick={() => window.location.href = "https://www.parcego.com/track-package"}
               >
                 Track your shipment
-              </Button>
-            </motion.div>
-
-            <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} className="w-full sm:w-auto">
-              <Button variant="outline" size="lg" className="w-full sm:w-auto" icon={<PlayCircle size={20} />}>
-                See How It Works
               </Button>
             </motion.div>
           </motion.div>

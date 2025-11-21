@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Check, X } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -58,6 +59,7 @@ const ComparisonTable: React.FC = () => {
               <tbody className="divide-y divide-slate-100">
                 {[
                     { feature: 'Transparent Pricing', parcego: true, other: false },
+                    { feature: 'Quick Quote Calculator', parcego: true, other: false },
                     { feature: 'Real-Time GPS Tracking', parcego: true, other: 'Limited' },
                     { feature: 'Photo Proof of Delivery', parcego: true, other: false },
                     { feature: 'Easy Integration', parcego: true, other: 'Complex' },
